@@ -29,18 +29,17 @@ int main() {
 
     printf("Insira a área: \n");
     scanf("%f", &area);
-    printf("Área: %f\n", area);
+    printf("Área: %.2f km²\n", area);
 
     printf("Insira o PIB: \n");
     scanf("%f", &pib);
-    printf("PIB: %f\n", pib);
+    printf("PIB: %.2f bilhões de reais\n", pib);
 
     printf("Insira o número de pontos turísticos: \n");
     scanf("%d", &turistico);
     printf("Número de pontos turísticos: %d\n", turistico);
 
+
+
     return 0;
-
-
 }
-
