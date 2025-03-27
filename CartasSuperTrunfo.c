@@ -75,6 +75,7 @@ int main() {
     printf("Insira o número de pontos turísticos: \n");
     scanf("%d", &turistico);
     printf("Número de pontos turísticos: %d\n", turistico);
+    
 
 
 
