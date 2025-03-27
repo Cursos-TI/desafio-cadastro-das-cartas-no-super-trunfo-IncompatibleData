@@ -5,8 +5,8 @@ int main() {
     printf("CARTA 1\n");
 
     char estado;
-    char codigo[20];
-    char cidade[10];
+    char codigo[10];
+    char cidade[20];
     int populacao;
     float area;
     float pib;
@@ -17,10 +17,11 @@ int main() {
     printf("Estado: %c\n", estado);
 
     printf("Insira o codigo: \n");
-    scanf("%s", &codigo);
+    scanf("%s", codigo);
     printf("Codigo: %s\n", codigo);
+
     printf("Insira a cidade: \n");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
     printf("Cidade: %s\n", cidade);
 
     printf("Insira a população: \n");
